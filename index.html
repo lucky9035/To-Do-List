@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do list</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>To-do List Application</h1>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Enter task..." />
+            <input type="date" id="deadlineInput" />
+            <button id="addButton">Add</button>
+        </div>
+
+        <div id="todoList">
+            <div class="high">
+                <h5>High Priority Tasks:</h5>
+                <div class="Container" id="highPriorityContainer"></div>
+
+            </div>
+
+            <div class="low">
+                <h5>Low Priority Tasks:</h5>
+                <div class="Container" id="lowPriorityContainer"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
